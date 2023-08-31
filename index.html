@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- SEO -->
+    <meta name="description" content="">
+    <meta name="keywords" content="INSTALACIONES COMERCIALES, HELADERAS, VITRINAS, SIERRAS">
+    <meta name="author" content="Frial Instalaciones Comerciales">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LIBRERIA FONT AWESOME PARA ICONOS -->
+    <script src="https://kit.fontawesome.com/fff721ec7f.js" crossorigin="anonymous"></script>
+    <!-- FRAMEWORK BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- LINK CSS LOCAL -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- SEO -->
+    <link rel="shortcut icon" href="./assets/svg/frial.svg" type="image/x-icon">
+    <title>Frial Instalaciones Comerciales</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./assets/svg/frial.svg" class="" alt="" width="150">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/productos.html">
+                                Productos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/quienes-somos.html">
+                                Empresa
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">
+                                Contacto
+                            </a>
+                        </li>
+                    </ul>
+                    <!--Buscador de productos-->
+                    <div class="d-flex flex-column">
+                        <!--Barra de busqueda-->
+                        <div class="d-flex">
+                            <input class="form-control" type="text" id="searchItemNavBar" placeholder="Buscar productos">
+                        </div>
+                        <!--Lista de productos en js-->
+                        <div class="lista-productos overflow-hidden" id="divListaProductos"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="overflow-hidden gradiente-azul-a">
+        
+        <div class="whatsapp rounded-circle">
+            <a href="https://wa.me/+59899080171/?text=Hola" id="whatsapp">
+                <img class="" src="./assets/svg/wpp.svg" alt="">
+            </a>
+        </div>
+
+        <div>
+            <div style="padding:56.25% 0 0 0;position:relative;">
+                <iframe src="https://player.vimeo.com/video/859828979?badge=0&amp;autopause=0&amp;player_id=0&amp;&loop=1&muted=1&background=1&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Promo Frial Instalaciones Comerciales"></iframe>
+            </div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+
+        <div class="container d-flex flex-lg-row flex-column justify-content-evenly align-items-start my-5 p-5 text-white">
+            <div class="col mb-4 mb-lg-0">
+                <h1 class="text-uppercase fw-bold">
+                    Lo mejor <br> para tu negocio
+                </h1>
+                <div class="mb-4 d-lg-none"></div>
+                <h4>
+                    <b>Más de 20 años asesorando, equipando, y apoyando a clientes.</b> 
+                    <br>
+                    Conoce nuestra catálogo, o consultanos por asesoría personalizada.
+                </h4>
+            </div>
+            <div class="col text-center text-lg-start">
+                <div class="d-flex flex-column justify-content-between align-items-center align-items-lg-start h-100">
+                    <a href="./pages/productos.html" class="btn btn-lg gradiente-naranja-a border-0 text-white rounded-pill mb-3 mb-lg-0">
+                        Productos
+                    </a>
+                    <a href="./pages/contacto.html" class="btn btn-lg gradiente-naranja-a border-0 text-white rounded-pill">
+                        Contacto
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container d-flex flex-column justify-content-center bg-white">
+            <div class="row mt-5">
+                <h2 class="text-center blue fw-bold">
+                    Productos destacados
+                </h2>
+            </div>
+            <div class="row row-cols-md-4 row-cols-2 g-3 mx-auto">
+        
+                <div class="col">
+                    <div class="card h-100 my-3">
+                        <span class="position-absolute top-0 start-50 translate-middle z-1 p-2 bg-danger text-white border border-light rounded">
+                            <span class=""><i>Nuevo</i></span>
+                        </span>
+                        <img src="./assets/img/productos/frilux/rf005.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h2 class="fs-6">
+                                Expositor vertical
+                            </h2>
+                            <p class="card-text text-muted">
+                                RF-005 / Frilux
+                            </p>
+                            <a href="./pages/productos/expositores/rf005.html" class="btn gradiente-naranja-a border-0 text-white rounded-pill">
+                                Ver producto
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col">
+                    <div class="card h-100 my-3">
+                        <img src="./assets/img/productos/frivale/xdgc.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h2 class="fs-6">
+                                Isla de Freezer
+                            </h2>
+                            <p class="card-text text-muted">
+                                XDG-C        
+                            </p>
+                            <a href="./pages/productos/freezers-pozos/xdgc.html" class="btn gradiente-naranja-a border-0 text-white rounded-pill">
+                                Ver producto
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col">
+                    <div class="card h-100 my-3">
+                        <img src="./assets/img/productos/frivale/gtgf.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h2 class="fs-6">
+                                Vitrina vidrio curvo rebatible
+                            </h2>
+                            <p class="card-text text-muted">
+                                GTG-F  
+                            </p>
+                            <a href="./pages/productos/vitrinas-refrigeradas/gtgf.html" class="btn gradiente-naranja-a border-0 text-white rounded-pill">
+                                Ver producto
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col">
+                    <div class="card h-100 my-3">
+                        <span class="position-absolute top-0 start-50 translate-middle z-1 p-2 bg-danger text-white border border-light rounded">
+                            <span class=""><i>Nuevo</i></span>
+                        </span>
+                        <img src="./assets/img/productos/frivale/cl288.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h2 class="fs-6">
+                                Exhibidor de masas 4 caras de vidrio
+                            </h2>
+                            <p class="card-text text-muted">
+                                CL-288 / Frivale
+                            </p>
+                            <a href="./pages/productos/expositores/cl288.html" class="btn gradiente-naranja-a border-0 text-white rounded-pill">
+                                Ver producto
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row my-5 text-center">
+                <h3 class="fw-bold blue pb-3">
+                    Conoce toda la linea de productos
+                </h3>
+                <a href="./pages/productos.html" class="btn gradiente-naranja-a border-0 col-4 mx-auto text-white rounded-pill">
+                    Ver más
+                </a>
+            </div>
+        </div>
+        
+
+        <div class="container d-flex flex-lg-row flex-column justify-content-between align-items-center my-5 p-5">
+            <div class="col rounded text-start text-white mb-3 mb-lg-0">
+                <h2 class="fw-bold mb-3">
+                    Nuestra misión
+                </h2>
+                <h5 class="">
+                    Nuestro objetivo no es solo crecer como empresa, sino <b>brindarles a nuestros clientes seguridad, confianza y atención personalizada.</b>
+                    
+                </h5>
+            </div>
+            <div class="col">
+                <a href="./pages/quienes-somos.html" class="btn btn-lg gradiente-naranja-a border-0 text-white rounded-pill">
+                    Conocenos
+                </a>
+            </div>
+        </div>
+        
+        
+
+        <div class="bg-white">
+            <div class="">
+                <div class="row text-center">
+                    <div class="col-12 d-flex-inline">
+
+                        <h2 class="fw-bold my-5 blue">
+                            Importa y respalda
+                        </h2>
+
+                        <div id="carouselLogos" class="carousel slide d-md-block d-lg-none mb-5" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./assets/svg/amapa.svg" class="d-block w-50 item mx-auto" loading="lazy" data-bs-interval="1000" alt="Logo Amapa Instalaciones">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/svg/becker.svg" class="d-block w-50 item mx-auto" loading="lazy" data-bs-interval="1000" alt="Logo Becker Go">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/svg/frilux.svg" class="d-block w-50 item mx-auto" loading="lazy" data-bs-interval="1000" alt="Logo Frilux">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/svg/frivale.svg" class="d-block w-50 item mx-auto" loading="lazy" data-bs-interval="1000" alt="Logo Frivale">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/svg/gural.svg" class="d-block w-50 item mx-auto" loading="lazy" data-bs-interval="1000" alt="Logo Gural">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="overflow-hidden d-none d-lg-block d-md-none">
+                            <ul class="shower is-set mb-5">
+                                <li class="shower-seat">
+                                    <img src="./assets/svg/amapa.svg" class="item" loading="lazy" alt="Logo Amapa Instalaciones">
+                                </li>
+                                <li class="shower-seat">
+                                    <img src="./assets/svg/becker.svg" class="item" loading="lazy" alt="Logo Becker Go">
+                                </li>
+                                <li class="shower-seat">
+                                    <img src="./assets/svg/frilux.svg" class="item" loading="lazy" alt="Logo Frilux">
+                                </li>
+                                <li class="shower-seat">
+                                    <img src="./assets/svg/frivale.svg" class="item" loading="lazy" alt="Logo Frivale">
+                                </li>
+                                <li class="shower-seat is-ref">
+                                    <img src="./assets/svg/gural.svg" class="item" loading="lazy" alt="Logo Gural">
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    
+    <footer class="bg-light overflow-hidden border-top">
+        <div class="container d-flex flex-lg-row flex-column justify-content-center justify-content-lg-around align-items-start text-center">
+            <div class="col-lg-4 col-md-4 col-12 my-4">
+                <div class=" justify-content-center">
+                    <div class="mb-3">
+                        <a href="./index.html">
+                            <img src="./assets/svg/frial.svg" class="" width="150" alt="">
+                        </a>
+                    </div>
+                    <div class="my-3 d-inline-flex">
+                        <a href="https://www.facebook.com/frial.instalacionescomerciales" class="datos me-3"><i class="fa-brands fa-facebook blue"></i></a>
+                        <a href="https://www.instagram.com/frialinstalaciones_comerciales/" class="datos mx-3"><i class="fa-brands fa-instagram blue"></i></a>
+                        <a href="tel:+59899631077" class="datos mx-3"><i class="fas fa-phone-alt blue"></i></a>
+                        <a href="mailto:frialmac@gmail.com" class="datos ms-3"><i class="fas fa-envelope blue"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-lg-start text-md-center text-sm-center my-3">
+                <div class="my-3">
+                    <h4 class="fw-bold">
+                        Menu
+                    </h4>
+                </div>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="./index.html" class="datos">
+                            <p>
+                                Inicio
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./pages/productos.html" class="datos">
+                            <p>
+                                Productos
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./pages/quienes-somos.html" class="datos">
+                            <p>
+                                Empresa
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./pages/contacto.html" class="datos">
+                            <p>
+                                Contacto
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row bg-white border-top">
+            <div class="text-muted text-center">
+            <p>
+                Frial Instalaciones Comerciales &copy; 2022 | Powered by: 
+                <a href="https://www.manuelbarca.uy" class="text-decoration-none text-danger">
+                    Manuel Barca
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!--SCRIPT DE JS LOCAL-->
+    
+
+    <script src="../js/fetchproductos.js"></script>
+    <script src="./js/clases.js"></script>
+    <script src="./js/funciones.js"></script>
+    <script src="./js/navbar.js"></script>
+    <!-- SCRIPT DE FRAMEWORK BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

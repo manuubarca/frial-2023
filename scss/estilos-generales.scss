@@ -1,0 +1,67 @@
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.portada {
+    width: 100vw;
+    height: 50vh;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.shadow-mine {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.shadow-text {
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.gradiente-azul-a {
+    background: rgb(44,137,240);
+background: linear-gradient(139deg, rgba(44,137,240,1) 0%, rgba(0,73,153,1) 69%, rgba(0,60,126,1) 100%);
+}
+
+.gradiente-azul-b {
+    background: rgb(0,58,122);
+background: linear-gradient(52deg, rgba(0,58,122,1) 0%, rgba(0,73,153,1) 42%, rgba(49,101,158,1) 100%);
+}
+
+.gradiente-naranja-a {
+    background: rgb(227,109,0);
+background: linear-gradient(11deg, rgba(227,109,0,1) 17%, rgba(239,123,16,1) 32%, rgba(255,176,103,1) 100%);
+}
+
+.gradiente-naranja-b {
+    background: rgb(239,123,16);
+background: linear-gradient(315deg, rgba(239,123,16,1) 0%, rgba(239,123,16,1) 64%, rgba(255,175,101,1) 100%);
+}
+
+.lista-productos {
+    width: 300px;
+    height: 0px;
+    z-index: 1;
+}
+
+#carouselTrabajos {
+    max-width: 500px; /* Establece el tamaño máximo que desees */
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+}

@@ -1,0 +1,209 @@
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Poppins', sans-serif; }
+
+.portada {
+  width: 100vw;
+  height: 50vh; }
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+.shadow-mine {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; }
+
+.shadow-text {
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
+
+.title {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; }
+
+.gradiente-azul-a {
+  background: #2c89f0;
+  background: linear-gradient(139deg, #2c89f0 0%, #004999 69%, #003c7e 100%); }
+
+.gradiente-azul-b {
+  background: #003a7a;
+  background: linear-gradient(52deg, #003a7a 0%, #004999 42%, #31659e 100%); }
+
+.gradiente-naranja-a {
+  background: #e36d00;
+  background: linear-gradient(11deg, #e36d00 17%, #ef7b10 32%, #ffb067 100%); }
+
+.gradiente-naranja-b {
+  background: #ef7b10;
+  background: linear-gradient(315deg, #ef7b10 0%, #ef7b10 64%, #ffaf65 100%); }
+
+.lista-productos {
+  width: 300px;
+  height: 0px;
+  z-index: 1; }
+
+.bg-blue {
+  background-color: #004999; }
+
+.bg-orange {
+  background-color: #EF7B10; }
+
+.bg-black {
+  background-color: #000; }
+
+.bg-white {
+  background-color: #fff; }
+
+.bg-gray {
+  background-color: #ABABAB; }
+
+.blue {
+  color: #004999; }
+
+.orange {
+  color: #EF7B10; }
+
+.white {
+  color: #fff; }
+
+.black {
+  color: #000; }
+
+.gray {
+  color: #ABABAB; }
+
+.datos {
+  color: black;
+  text-decoration: none;
+  font-weight: normal; }
+
+.datos :hover {
+  color: orange; }
+
+.datos-contacto {
+  color: white;
+  text-decoration: none;
+  font-weight: normal; }
+
+.datos-contacto :hover {
+  color: #004999;
+  font-weight: bolder;
+  text-decoration: none; }
+
+.logos-opacity {
+  opacity: 0.7;
+  transition: 0.3s; }
+
+.logos-opacity:hover {
+  opacity: 1; }
+
+.whatsapp {
+  width: 50px;
+  z-index: 2;
+  position: fixed;
+  bottom: 15px;
+  right: 16px;
+  transition: 0.2s; }
+
+.whatsapp:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite; }
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg); }
+  10% {
+    transform: translate(-1px, -1px) rotate(-1deg); }
+  20% {
+    transform: translate(-1px, 0px) rotate(1deg); }
+  30% {
+    transform: translate(1px, 1px) rotate(0deg); }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg); }
+  50% {
+    transform: translate(-1px, 1px) rotate(0deg); }
+  60% {
+    transform: translate(-3px, 1px) rotate(-1deg); }
+  70% {
+    transform: translate(1px, 1px) rotate(0deg); }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg); }
+  90% {
+    transform: translate(1px, 1px) rotate(0deg); }
+  100% {
+    transform: translate(1px, -1px) rotate(-1deg); } }
+
+.shower {
+  display: flex;
+  left: -100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transform: translateX(100%); }
+  @media (min-width: 30em) {
+    .shower {
+      left: -33.33333%;
+      transform: translateX(33.33333%); } }
+  @media (min-width: 40em) {
+    .shower {
+      left: -20%;
+      transform: translateX(20%); } }
+
+.shower.is-reversing {
+  transform: translateX(-100%); }
+  @media (min-width: 30em) {
+    .shower.is-reversing {
+      transform: translateX(-33.33333%); } }
+  @media (min-width: 40em) {
+    .shower.is-reversing {
+      transform: translateX(-20%); } }
+
+.shower.is-set {
+  transform: none;
+  transition: transform 2s cubic-bezier(0.5, 1, 0.5, 1); }
+
+.shower-seat {
+  flex: 1 0 20%;
+  order: 2; }
+
+@media (min-width: 30em) {
+  .shower-seat:nth-child(even) {
+    flex-basis: 33.33333%; } }
+
+@media (min-width: 40em) {
+  .shower-seat:nth-child(even) {
+    flex-basis: 20%; } }
+
+.shower-seat.is-ref {
+  order: 1; }
+
+.index {
+  background-image: url(../assets/img/index/index.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.productos {
+  background-image: url(../assets/img/productos/portada.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.quienes-somos {
+  background-image: url(../assets/img/quienes-somos/5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.contacto {
+  background-image: url(../assets/img/contacto/4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }

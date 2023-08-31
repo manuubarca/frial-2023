@@ -1,0 +1,54 @@
+$blue: #004999;
+$orange: #EF7B10;
+$white: #fff;
+$black: #000;
+$gray: #ABABAB;
+
+
+$warning: $orange !default;
+$danger: $blue !default;
+
+.bg-blue {
+    background-color: $blue;
+}
+
+.bg-orange {
+    background-color: $orange;
+}
+
+.bg-black {
+    background-color: $black;
+}
+
+.bg-white {
+    background-color: $white;
+}
+
+.bg-gray {
+    background-color: $gray;
+}
+
+.blue {
+    color: $blue;
+}
+
+.orange {
+    color: $orange;
+}
+
+.white {
+    color: $white;
+}
+
+.black {
+    color: $black;
+}
+
+.gray {
+    color: $gray;
+}
+
+
+$accordion-icon-active-color: $white !default;
+
+
